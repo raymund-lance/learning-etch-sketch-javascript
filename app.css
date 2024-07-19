@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    border: 5px solid rgb(15, 88, 223);
+    height: 600px;
+    width: auto;
+    flex-direction: column;
+}
+#container .horizontal {
+    flex: 1;
+    display: flex;
+    
+}
+
+.horizontal .vertical {
+    flex: 1;
+    border: 1px solid black;
+}
+
