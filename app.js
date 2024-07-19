@@ -9,6 +9,7 @@ const selectSketch = document.querySelector('#sketch');
 selectSketch.addEventListener('click', () => {
     selectVertical.forEach(function(newBoard) {
         newBoard.style.backgroundColor = 'white';
+        colorPaint = 'black'
     })
 })
 
